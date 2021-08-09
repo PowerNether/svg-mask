@@ -1,9 +1,21 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    overflow: no-scroll;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .home-icon {
     display: block;
-    width: 32px;
-    height: 32px;
-    -webkit-mask: url('./../img/contour.svg') center / 32px no-repeat;
-            mask: url('./../img/contour.svg') center / 32px no-repeat;
+    width: 64px;
+    height: 64px;
+    -webkit-mask: url('./../img/contour.svg') center / 64px no-repeat;
+            mask: url('./../img/contour.svg') center / 64px no-repeat;
     background-color: #5947B3;
     transition: all .35s;
     cursor: pointer;
