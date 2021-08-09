@@ -1,0 +1,13 @@
+.home-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    -webkit-mask: url('./../img/contour.svg') center / 32px no-repeat;
+            mask: url('./../img/contour.svg') center / 32px no-repeat;
+    background-color: #5947B3;
+    transition: all .35s;
+    cursor: pointer;
+}
+.home-icon:hover {
+    background-color: #df3232;
+}
